@@ -1,0 +1,77 @@
+body{
+    background-color:aliceblue;
+}
+
+.one{
+    display: flex;
+    gap: 50px;
+}
+.two{
+    display: flex;
+    gap: 50px;
+}
+.three{
+    display: flex;
+    gap: 50px;
+}
+button{
+    background-color: white;
+    text-align: center;
+    align-items:center;
+    display: flex;
+    padding: 10px;
+    border-radius: 55px;
+    justify-content: space-evenly;
+    width: 130px;
+    height: 35px;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+    left: 85px;
+    transition: width 2s;
+}
+button:hover{
+    color: brown;
+    border: 1px solid brown;
+}
+span{
+    color: brown;
+    margin-top:0px ;
+}
+p{
+    margin-top: 0px;
+    color: gray;
+    font-weight: bold;
+}
+h3{
+    margin-top: 0px;
+}
+.ord{
+    background-color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    left:1100px;    
+}
+#boy{
+    height:380px ;
+    border: none;
+    text-align:justify;
+}
+#btn{
+    width: 350px;
+    left:25px;
+    margin-top: 20px;
+}
+#order{
+    height: 40px;
+    text-align: end;
+    font-size: large;
+    font-weight: b ;
+    border: none;
+}
+
